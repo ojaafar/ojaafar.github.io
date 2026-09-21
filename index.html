@@ -1,26 +1,408 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>El meu portafoli</title>
+    <title>Ousama | Portafoli</title>
+
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-    <h1>Hola! Sóc Ousama</h1>
+    <!-- =========================
+         NAVEGACIÓ
+    ========================== -->
 
-    <p>
-        Benvingut/da al meu portafoli.
-    </p>
+    <header>
+        <nav class="navbar">
 
-    <h2>Sobre mi</h2>
+            <a href="#inici" class="logo">
+                Ousama.
+            </a>
 
-    <p>
-        Sóc estudiant de desenvolupament de software i aquest és
-        el meu portafoli personal.
-    </p>
+            <ul class="nav-links">
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#habilitats">Habilitats</a></li>
+                <li><a href="#projectes">Projectes</a></li>
+                <li><a href="#formacio">Formació</a></li>
+                <li><a href="#contacte">Contacte</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             INICI
+        ========================== -->
+
+        <section id="inici" class="hero">
+
+            <div class="hero-text">
+
+                <p class="hero-subtitle">
+                    Hola! Em dic
+                </p>
+
+                <h1>Ousama Jaafar</h1>
+
+                <h2>Estudiant de Desenvolupament de Software</h2>
+
+                <p>
+                    M'apassiona la tecnologia, la programació i continuar
+                    aprenent noves eines per crear aplicacions útils i
+                    atractives.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projectes" class="btn primary">
+                        Veure projectes
+                    </a>
+
+                    <a href="#contacte" class="btn secondary">
+                        Contactar
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-image">
+
+                <!-- Més endavant pots posar aquí una foto teva -->
+
+                <div class="profile-placeholder">
+                    OJ
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOBRE MI
+        ========================== -->
+
+        <section id="sobre-mi" class="section">
+
+            <p class="section-label">Qui sóc</p>
+
+            <h2>Sobre mi</h2>
+
+            <div class="about">
+
+                <p>
+                    Sóc estudiant de desenvolupament de software i actualment
+                    estic ampliant els meus coneixements en desenvolupament web,
+                    programació, bases de dades i altres tecnologies.
+                </p>
+
+                <p>
+                    M'agrada aprendre mitjançant projectes pràctics i afrontar
+                    nous reptes que em permetin millorar com a desenvolupador.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             HABILITATS
+        ========================== -->
+
+        <section id="habilitats" class="section">
+
+            <p class="section-label">Tecnologies</p>
+
+            <h2>Habilitats</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <p>Estructura i desenvolupament de pàgines web.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <p>Disseny responsive i interfícies web.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <p>Interactivitat i programació web.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Java</h3>
+                    <p>Programació orientada a objectes.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>SQL</h3>
+                    <p>Consultes i gestió de bases de dades.</p>
+                </div>
+
+                <div class="skill">
+                    <h3>Git / GitHub</h3>
+                    <p>Control de versions i publicació de projectes.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECTES
+        ========================== -->
+
+        <section id="projectes" class="section">
+
+            <p class="section-label">El que he fet</p>
+
+            <h2>Projectes</h2>
+
+            <!-- FILTRES -->
+
+            <div class="filters">
+
+                <button class="filter-btn active" data-filter="all">
+                    Tots
+                </button>
+
+                <button class="filter-btn" data-filter="web">
+                    Web
+                </button>
+
+                <button class="filter-btn" data-filter="java">
+                    Java
+                </button>
+
+                <button class="filter-btn" data-filter="bbdd">
+                    Bases de dades
+                </button>
+
+            </div>
+
+
+            <!-- TARGETES -->
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECTE 1 -->
+
+                <article class="project-card" data-category="web">
+
+                    <div class="project-image">
+                        PROJECTE WEB
+                    </div>
+
+                    <div class="project-content">
+
+                        <span>Web</span>
+
+                        <h3>Projecte JavaScript</h3>
+
+                        <p>
+                            Aplicació desenvolupada amb HTML, CSS i JavaScript
+                            com a projecte del curs.
+                        </p>
+
+                        <div class="technologies">
+                            <small>HTML</small>
+                            <small>CSS</small>
+                            <small>JavaScript</small>
+                        </div>
+
+                        <a href="#" target="_blank">
+                            Veure projecte →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECTE 2 -->
+
+                <article class="project-card" data-category="java">
+
+                    <div class="project-image">
+                        JAVA
+                    </div>
+
+                    <div class="project-content">
+
+                        <span>Java</span>
+
+                        <h3>Gestió d'enviaments</h3>
+
+                        <p>
+                            Aplicació orientada a objectes desenvolupada
+                            utilitzant Java.
+                        </p>
+
+                        <div class="technologies">
+                            <small>Java</small>
+                            <small>POO</small>
+                        </div>
+
+                        <a href="#" target="_blank">
+                            Veure projecte →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECTE 3 -->
+
+                <article class="project-card" data-category="bbdd">
+
+                    <div class="project-image">
+                        SQL
+                    </div>
+
+                    <div class="project-content">
+
+                        <span>Base de dades</span>
+
+                        <h3>Projecte SQL</h3>
+
+                        <p>
+                            Projecte de bases de dades amb consultes SQL,
+                            funcions i relacions entre taules.
+                        </p>
+
+                        <div class="technologies">
+                            <small>SQL</small>
+                            <small>MySQL</small>
+                        </div>
+
+                        <a href="#" target="_blank">
+                            Veure projecte →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FORMACIÓ
+        ========================== -->
+
+        <section id="formacio" class="section">
+
+            <p class="section-label">Estudis</p>
+
+            <h2>Formació i certificats</h2>
+
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <span>2025 - Actualitat</span>
+
+                    <h3>Desenvolupament d'Aplicacions</h3>
+
+                    <p>
+                        Nom del centre educatiu
+                    </p>
+
+                </div>
+
+
+                <div class="timeline-item">
+
+                    <span>2026</span>
+
+                    <h3>Certificat / Curs</h3>
+
+                    <p>
+                        Aquí pots afegir cursos o certificacions que hagis
+                        realitzat.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTE
+        ========================== -->
+
+        <section id="contacte" class="section contact">
+
+            <p class="section-label">Parlem?</p>
+
+            <h2>Contacte</h2>
+
+            <p>
+                Pots consultar els meus projectes a GitHub o contactar amb mi
+                a través de les meves xarxes.
+            </p>
+
+            <div class="contact-links">
+
+                <a href="https://github.com/ojaafar"
+                   target="_blank"
+                   class="btn primary">
+
+                    GitHub
+
+                </a>
+
+                <a href="#"
+                   target="_blank"
+                   class="btn secondary">
+
+                    LinkedIn
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <p>
+            © 2026 Ousama Jaafar · Desenvolupat amb HTML, CSS i JavaScript
+        </p>
+
+    </footer>
+
+
+    <script src="index.js"></script>
 
 </body>
+
 </html>
