@@ -494,9 +494,7 @@ footer {
 
     .hero {
         flex-direction: column;
-
         text-align: center;
-
         justify-content: center;
     }
 
@@ -512,11 +510,9 @@ footer {
         font-size: 1.4rem;
     }
 
-    .profile-placeholder {
+    .profile-image {
         width: 190px;
         height: 190px;
-
-        font-size: 3rem;
     }
 
 }
