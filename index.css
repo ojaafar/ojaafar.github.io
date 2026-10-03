@@ -697,26 +697,33 @@ header {
 }
 
 
-/* ICONA */
+/* Logos dels certificats */
 
-.certificate-icon {
-    width: 55px;
+.certificate-logos {
     height: 55px;
 
     display: flex;
     align-items: center;
-    justify-content: center;
 
-    border-radius: 12px;
-
-    background: #1e293b;
-
-    color: #38bdf8;
-
-    font-weight: bold;
-    font-size: 1.1rem;
+    gap: 12px;
 
     margin-bottom: 22px;
+}
+
+.certificate-logos img {
+    width: 48px;
+    height: 48px;
+
+    object-fit: contain;
+
+    transition: 0.3s ease;
+}
+
+
+/* Petit efecte al passar el ratolí */
+
+.certificate-card:hover .certificate-logos img {
+    transform: scale(1.08);
 }
 
 
