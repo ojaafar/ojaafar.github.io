@@ -248,6 +248,40 @@ header {
     color: #94a3b8;
 }
 
+.skills-description {
+    color: #94a3b8;
+    max-width: 700px;
+    margin-top: -25px;
+    margin-bottom: 45px;
+    font-size: 1.05rem;
+}
+
+.tech-category {
+    margin-bottom: 45px;
+}
+
+.tech-category h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #e5e7eb;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.tech-stack img {
+    height: 30px;
+    transition: 0.25s ease;
+}
+
+.tech-stack img:hover {
+    transform: translateY(-4px) scale(1.05);
+}
+
 
 /* =========================
    FILTRES
