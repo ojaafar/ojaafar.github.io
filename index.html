@@ -316,142 +316,243 @@
 
         <section id="projectes" class="section">
 
-            <p class="section-label">El que he fet</p>
+    <p class="section-label">El que he fet</p>
 
-            <h2>Projectes</h2>
+    <h2>Projectes</h2>
 
-            <!-- FILTRES -->
+    <p class="projects-description">
+        Alguns dels projectes que he desenvolupat durant la meva
+        formació i de manera personal.
+    </p>
 
-            <div class="filters">
 
-                <button class="filter-btn active" data-filter="all">
-                    Tots
-                </button>
+    <!-- =========================
+         FILTRES
+    ========================== -->
 
-                <button class="filter-btn" data-filter="web">
-                    Web
-                </button>
+    <div class="filters">
 
-                <button class="filter-btn" data-filter="java">
+        <button class="filter-btn active" data-filter="all">
+            Tots
+        </button>
+
+        <button class="filter-btn" data-filter="web">
+            Web
+        </button>
+
+        <button class="filter-btn" data-filter="java">
+            Java
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         PROJECTES
+    ========================== -->
+
+    <div class="projects-grid">
+
+
+        <!-- =========================
+             PORTAFOLI PERSONAL
+        ========================== -->
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-image-container">
+
+                <img
+                    src="img/portfolio.png"
+                    alt="Captura del meu portafoli personal"
+                    class="project-img">
+
+            </div>
+
+
+            <div class="project-content">
+
+                <span class="project-category">
+                    Desenvolupament Web
+                </span>
+
+                <h3>Portafoli Personal</h3>
+
+                <p>
+                    Portafoli web personal creat per presentar la meva
+                    formació, habilitats i projectes d'una manera clara,
+                    accessible i interactiva.
+                </p>
+
+
+                <div class="technologies">
+
+                    <small>HTML</small>
+                    <small>CSS</small>
+                    <small>JavaScript</small>
+                    <small>GitHub Pages</small>
+
+                </div>
+
+
+                <div class="project-links">
+
+                    <a
+                        href="https://ojaafar.github.io/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn">
+
+                        Veure projecte ↗
+
+                    </a>
+
+
+                    <a
+                        href="https://github.com/ojaafar/ojaafar.github.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn-secondary">
+
+                        GitHub ↗
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================
+             GESTOR DE BIBLIOTECA
+        ========================== -->
+
+        <article class="project-card" data-category="java">
+
+            <div class="project-image-container">
+
+                <img
+                    src="img/biblioteca.png"
+                    alt="Projecte Gestor de Biblioteca desenvolupat amb Java"
+                    class="project-img">
+
+            </div>
+
+
+            <div class="project-content">
+
+                <span class="project-category">
                     Java
-                </button>
+                </span>
 
-                <button class="filter-btn" data-filter="bbdd">
-                    Bases de dades
-                </button>
+                <h3>Gestor de Biblioteca</h3>
+
+                <p>
+                    Aplicació de consola desenvolupada amb Java per gestionar
+                    els llibres, usuaris i préstecs d'una biblioteca.
+                    Inclou gestió d'estoc, historial de préstecs i
+                    estadístiques.
+                </p>
+
+
+                <div class="technologies">
+
+                    <small>Java</small>
+                    <small>Eclipse</small>
+                    <small>Git</small>
+                    <small>GitHub</small>
+
+                </div>
+
+
+                <div class="project-links">
+
+                    <a
+                        href="https://github.com/ojaafar/gestor-biblioteca"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn">
+
+                        Veure codi ↗
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================
+             JAAFAR WATCH
+        ========================== -->
+
+        <article class="project-card" data-category="web">
+
+            <div class="project-image-container">
+
+                <img
+                    src="img/jaafarwatch.png"
+                    alt="Pàgina web JaafarWatch"
+                    class="project-img">
 
             </div>
 
 
-            <!-- TARGETES -->
+            <div class="project-content">
 
-            <div class="projects-grid">
+                <span class="project-category">
+                    WordPress · E-commerce
+                </span>
 
+                <h3>JaafarWatch</h3>
 
-                <!-- PROJECTE 1 -->
-
-                <article class="project-card" data-category="web">
-
-                    <div class="project-image">
-                        PROJECTE WEB
-                    </div>
-
-                    <div class="project-content">
-
-                        <span>Web</span>
-
-                        <h3>Projecte JavaScript</h3>
-
-                        <p>
-                            Aplicació desenvolupada amb HTML, CSS i JavaScript
-                            com a projecte del curs.
-                        </p>
-
-                        <div class="technologies">
-                            <small>HTML</small>
-                            <small>CSS</small>
-                            <small>JavaScript</small>
-                        </div>
-
-                        <a href="#" target="_blank">
-                            Veure projecte →
-                        </a>
-
-                    </div>
-
-                </article>
+                <p>
+                    Botiga online de rellotges creada com a projecte de
+                    final de curs. El seu objectiu és mostrar i vendre
+                    rellotges de marques com Rolex, Casio i altres,
+                    oferint una experiència de navegació clara i atractiva.
+                </p>
 
 
-                <!-- PROJECTE 2 -->
+                <div class="technologies">
 
-                <article class="project-card" data-category="java">
+                    <small>WordPress</small>
+                    <small>HTML</small>
+                    <small>CSS</small>
+                    <small>PHP</small>
+                    <small>MySQL</small>
 
-                    <div class="project-image">
-                        JAVA
-                    </div>
-
-                    <div class="project-content">
-
-                        <span>Java</span>
-
-                        <h3>Gestió d'enviaments</h3>
-
-                        <p>
-                            Aplicació orientada a objectes desenvolupada
-                            utilitzant Java.
-                        </p>
-
-                        <div class="technologies">
-                            <small>Java</small>
-                            <small>POO</small>
-                        </div>
-
-                        <a href="#" target="_blank">
-                            Veure projecte →
-                        </a>
-
-                    </div>
-
-                </article>
+                </div>
 
 
-                <!-- PROJECTE 3 -->
+                <div class="project-links">
 
-                <article class="project-card" data-category="bbdd">
+                    <a
+                        href="https://jaafarwatch.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="project-btn">
 
-                    <div class="project-image">
-                        SQL
-                    </div>
+                        Visitar web ↗
 
-                    <div class="project-content">
+                    </a>
 
-                        <span>Base de dades</span>
-
-                        <h3>Projecte SQL</h3>
-
-                        <p>
-                            Projecte de bases de dades amb consultes SQL,
-                            funcions i relacions entre taules.
-                        </p>
-
-                        <div class="technologies">
-                            <small>SQL</small>
-                            <small>MySQL</small>
-                        </div>
-
-                        <a href="#" target="_blank">
-                            Veure projecte →
-                        </a>
-
-                    </div>
-
-                </article>
-
+                </div>
 
             </div>
 
-        </section>
+        </article>
 
+
+    </div>
+
+</section>
 
         <!-- =========================
              FORMACIÓ
